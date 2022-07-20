@@ -140,7 +140,7 @@ body{
 .fa-regular {
     margin-right: 10px;
 }
-
+/*Footer Styles*/
 footer{
     width: 100%;
     background-color: #161616;
@@ -150,17 +150,21 @@ footer{
     padding-top: 60px;
     margin-top: 60px;
 }
+/*Footer h1 Styles*/
 footer h1{
     margin-bottom: 30px;
 }
+/*footer hr Styles*/
 footer hr{
     border: .5px solid #282828;
     width: 80%;
     margin: auto;
 }
+/*footer nav Styles*/
 nav{
     margin-top: 40px;
 }
+/*footer nav li Styles*/
 nav li{
     list-style: none;
     display: inline-block;
@@ -168,9 +172,88 @@ nav li{
     justify-content: center;
     margin: 0px 30px;
 }
+/*footer nav li a Styles*/
 nav li a{
     list-style: none;
     display: flex;
     text-decoration: none;
     color: #B9B9B9;
+}
+
+@media only screen and (max-width: 688px) {
+    .container{
+        margin: auto;
+    }
+    .hero-section {
+        display: grid;
+        justify-content: center;
+    }
+    .title-area{
+        text-align: center;
+    }
+    .banner-image-area{
+        text-align: center;
+    }
+    .banner-image{
+        width: 420px !important;
+        margin-left: 50px;
+    }
+    .blog-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        grid-row-gap: 30px;
+    }
+    .blog-menu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #FFFFFF;
+    }
+    .blog-menu a{
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        align-items: center;
+        background-color: white;
+        margin: 20px;
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 1px solid darkgray;
+        color: #161616;
+    }
+    .blog-area{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 50px;
+    }
+    .blog{
+        border: 1px solid darkgray;
+        border-radius: 10px;
+    }
+    .blog img{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        background-color: #161616;
+        color: #FFFFFF;
+        height: 384px;
+    }
+    nav{
+        width: 100%;
+        text-align: center;
+    }
+    nav ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    nav ul li{
+        flex-direction: column;
+        display: grid;
+        justify-content: center;
+        margin: 19px 0px;
+    }
+
 }
