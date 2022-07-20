@@ -182,6 +182,7 @@ nav li a{
 
 @media only screen and (max-width: 688px) {
     .container{
+        width: 90%;
         margin: auto;
     }
     .hero-section {
@@ -195,7 +196,7 @@ nav li a{
         text-align: center;
     }
     .banner-image{
-        width: 420px !important;
+        width: 233px !important;
         margin-left: 50px;
     }
     .blog-section{
@@ -239,7 +240,7 @@ nav li a{
         width: 100%;
         background-color: #161616;
         color: #FFFFFF;
-        height: 384px;
+        height: 600px;
     }
     nav{
         width: 100%;
