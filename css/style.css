@@ -184,6 +184,42 @@ nav li a{
     text-decoration: none;
     color: #B9B9B9;
 }
+.matches{
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    height: 212px;
+}
+.matches h3{
+    text-align: center;
+    margin-top: 15px;
+}
+.matches p{
+    text-align: center;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+.team-flag{
+    display: flex;
+    justify-content: center;
+}
+.team-flag img{
+    width: 66px;
+    margin: 55px 12px 10px;
+}
+.team-flag span{
+    margin: 65px 0px 0px 0px;
+    font-weight: bolder;
+}
+
+.footer-social{
+    padding-top: 80px;
+}
+.footer-social a i {
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: 35px;
+}
 
 /*-----------------------Media Query---------------------*/
 
