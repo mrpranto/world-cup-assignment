@@ -220,6 +220,9 @@ nav li a{
     padding: 0 10px;
     font-size: 35px;
 }
+.footer-social a{
+    text-decoration: none;
+}
 
 /*-----------------------Media Query---------------------*/
 
